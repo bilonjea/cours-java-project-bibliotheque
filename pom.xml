@@ -18,22 +18,26 @@
   
   <developers>
 		<developer>
-			<name>xxx</name>
-			<organization>xxx</organization>
-			<email>xxx</email>
+			<name>Jean</name>
+			<organization>E-MET Consulting</organization>
+			<email>j.bilong@gmail.com</email>
+			<url>www.linkedin.com/in/bilonjea</url>
 			<roles>
-				<role>xxx</role>
+				<role>Développeur Java Spring Angular</role>
+				<role>Formateur Java</role>
 			</roles>
 		</developer>
 	</developers>
 
 	<contributors>
 		<contributor>
-			<name>xxx</name>
-			<organization>xxx</organization>
-			<email>xxx</email>
+			<name>Jean</name>
+			<organization>E-MET Consulting</organization>
+			<email>j.bilong@gmail.com</email>
+			<url>www.linkedin.com/in/bilonjea</url>
 			<roles>
-				<role>xxx</role>
+				<role>Développeur Java Spring Angular</role>
+				<role>Formateur Java</role>
 			</roles>
 		</contributor>
 	</contributors>

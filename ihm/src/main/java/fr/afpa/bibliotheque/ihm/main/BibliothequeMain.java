@@ -42,8 +42,7 @@ public class BibliothequeMain {
 		
 		ExempleLivreBusiness livre =  (ExempleLivreBusiness) ctx.getBean("exempleLivreBusinessImpl");
 		
-		int nbr = livre.getLibreByCategory("losirs");
-		System.out.println("show livres de la categores loisirs "+ nbr);
+	
 		
 		
 
