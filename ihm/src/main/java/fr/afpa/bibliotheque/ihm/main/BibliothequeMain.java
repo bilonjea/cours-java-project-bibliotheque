@@ -21,8 +21,7 @@ import lombok.extern.log4j.Log4j;
  *
  */
 @Log4j
-public class BibliothequeMain extends Application{
-	
+public class BibliothequeMain { //extends Application
 	
 
 	/**
@@ -43,23 +42,23 @@ public class BibliothequeMain extends Application{
 		ExempleLivreBusiness livre =  (ExempleLivreBusiness) ctx.getBean("exempleLivreBusinessImpl");
 		
 	
-		 launch(args);
+//		 launch(args);
 		
 		
 
 	}
 
-	@Override
-    public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("scene.fxml"));
-        
-        Scene scene = new Scene(root);
-        scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
-        
-        stage.setTitle("JavaFX and Gradle");
-        stage.setScene(scene);
-        stage.show();
-    }
+//	@Override
+//    public void start(Stage stage) throws Exception {
+//        Parent root = FXMLLoader.load(getClass().getResource("scene.fxml"));
+//        
+//        Scene scene = new Scene(root);
+//        scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
+//        
+//        stage.setTitle("JavaFX and Gradle");
+//        stage.setScene(scene);
+//        stage.show();
+//    }
 
 
 }
